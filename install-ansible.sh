@@ -362,3 +362,7 @@ changed: [192.168.0.102] => (item=httplib2)
 PLAY RECAP *********************************************************************
 192.168.0.101              : ok=4    changed=0    unreachable=0    failed=0
 192.168.0.102              : ok=4    changed=1    unreachable=0    failed=0
+
+
+#
+ansible api -m yum -a "name=libselinux-python state=present"

@@ -1,7 +1,7 @@
 ---
 # defaults file for zabbix-agent
 
-zabbix_version: 3.2
+zabbix_version: 3.0.8
 zabbix_repo: zabbix
 zabbix_agent_package: zabbix-agent
 zabbix_agent_package_state: present # or latest
@@ -11,7 +11,7 @@ agent_serveractive:
 # Zabbix API stuff
 zabbix_url: "http://99.zabbix.com"
 zabbix_api_user: Admin
-zabbix_api_pass: zabbix
+zabbix_api_pass: fangbuxia..0
 zabbix_api_create_hostgroup: False
 zabbix_api_create_hosts: False
 zabbix_create_hostgroup: present  # or absent
@@ -54,7 +54,7 @@ agent_buffersize: 100
 agent_maxlinespersecond: 100
 agent_allowroot: 0
 agent_zabbix_alias:
-agent_timeout: 3
+agent_timeout: 5
 agent_include: /etc/zabbix/zabbix_agentd.d
 agent_unsafeuserparameters: 0
 agent_userparameter:
