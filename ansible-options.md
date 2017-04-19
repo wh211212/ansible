@@ -16,4 +16,4 @@ test for execte local script!" > /root/test.sh
 chmod +x /root/test.sh
 ansible api -m script -a "/root/test.sh"
 
-# 
+# 执行playbook
